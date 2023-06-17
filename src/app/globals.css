@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Background effects */
+.home--bgCircle {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  background-color: #a3a3a3;
+  filter: blur(175px);
+  border-radius: 100px;
+}
+
+.home--circleOne {
+  left: 0;
+  top: 0;
+}
+
+.home--circleTwo {
+  bottom: 0;
+  right: 0;
+}
