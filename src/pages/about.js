@@ -1,11 +1,10 @@
 import RootLayout from "../app/layout";
+import About from "../components/About";
 
 export default function AboutPage() {
   return (
     <RootLayout>
-      <div className="about--container">
-        <h1>About me</h1>
-      </div>
+      <About />
     </RootLayout>
   );
 }

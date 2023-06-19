@@ -6,7 +6,7 @@ import ContactButton from "../components/ContactButton";
 
 export default function Hero() {
   return (
-    <div className="hero--container flex flex-col h-screen justify-center items-center mt-[-70px]">
+    <section className="hero--container flex flex-col h-screen justify-center items-center mt-[-70px]">
       <h1 className="text-8xl flex mb-8" style={myFont.style}>
         that_<span className="text-orange-600">dev</span>guy
       </h1>
@@ -16,6 +16,6 @@ export default function Hero() {
         applications.
       </h3>
       <ContactButton />
-    </div>
+    </section>
   );
 }

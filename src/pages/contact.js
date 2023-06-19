@@ -1,10 +1,11 @@
 import RootLayout from "../app/layout";
+import Contact from "../components/Contact";
 
 export default function ContactPage() {
   return (
     <RootLayout>
       <div className="contact--container">
-        <h1>Contact</h1>
+        <Contact />
       </div>
     </RootLayout>
   );

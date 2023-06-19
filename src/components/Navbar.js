@@ -13,29 +13,31 @@ export default function Navbar() {
       </Link>
       <div className="flex gap-5 pr-5 border-r border-neutral-700 text-neutral-500 ml-auto font-semibold">
         <Link
-          href="/projects"
-          className="cursor-pointer h-5 flex content-center hover:text-neutral-200 transition-color duration-200 delay-100"
-        >
-          Projects
-        </Link>
-        <Link
           href="/about"
-          className="cursor-pointer h-5 flex content-center hover:text-neutral-200 transition-color duration-200 delay-100"
+          className="cursor-pointer h-5 flex items-center hover:text-neutral-200 transition-color duration-200 delay-100"
         >
           About me
         </Link>
         <Link
+          href="/projects"
+          className="cursor-pointer h-5 flex items-center hover:text-neutral-200 transition-color duration-200 delay-100"
+        >
+          Projects
+        </Link>
+        <Link
           href="/contact"
-          className="cursor-pointer h-5 flex content-center hover:text-neutral-200 transition-color duration-200 delay-100"
+          className="cursor-pointer h-5 flex items-center hover:text-neutral-200 transition-color duration-200 delay-100"
         >
           Contact
         </Link>
-        <Link
-          href="/resume"
-          className="cursor-pointer h-5 flex content-center hover:text-neutral-200 transition-color duration-200 delay-100"
+        <a
+          href="/zachmutch-resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer h-5 flex items-center hover:text-neutral-200 transition-color duration-200 delay-100"
         >
           Resume
-        </Link>
+        </a>
       </div>
 
       <Socials />

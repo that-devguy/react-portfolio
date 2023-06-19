@@ -1,10 +1,11 @@
 import RootLayout from "../app/layout";
+import Projects from "../components/Projects";
 
 export default function ProjectsPage() {
   return (
     <RootLayout>
       <div className="projects--container">
-        <h1>Projects</h1>
+        <Projects />
       </div>
     </RootLayout>
   );
