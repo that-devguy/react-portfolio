@@ -1,11 +1,13 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
+import Navbar from "../components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
-const myFont = localFont({ src: "../assets/fonts/BDStreetSignSans-RaisedInktrap.otf"})
+const myFont = localFont({
+  src: "../assets/fonts/BDStreetSignSans-RaisedInktrap.otf",
+});
 
 export const metadata = {
   title: "Zach Mutch - Portfolio",
@@ -14,8 +16,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="bg-zinc-950 text-white">{children}</body>
-    </html>
+    <>
+      <Navbar />
+      <main>{children}</main>
+      <div class="home--bgCircle home--circleOne"></div>
+      <div class="home--bgCircle home--circleTwo"></div>
+    </>
   );
 }
