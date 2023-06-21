@@ -6,6 +6,11 @@
   --brand: #ea580c;
 }
 
+main {
+  scrollbar-gutter: stable;
+  scrollbar-gutter: stable both-edges;
+}
+
 body {
   background: #09090b;
   color: #ffffff;

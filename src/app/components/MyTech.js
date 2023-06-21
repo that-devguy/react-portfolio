@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPalette, faTerminal } from "@fortawesome/free-solid-svg-icons";
-import { Reveal } from "../components/Reveal";
+import { Reveal } from "../utils/Reveal";
 
 export default function MyTech() {
   return (
     <div className="myTech--container">
-      <Reveal delay={0.5}>
-        <p className="text-md font-semibold flex items-center mb-6">
+      <Reveal>
+        <p className="text-lg font-semibold flex items-center mb-6">
           <FontAwesomeIcon
             icon={faTerminal}
             className="text-black bg-orange-600 mr-2 p-1 w-3 h-3 rounded-md"
@@ -37,7 +37,7 @@ export default function MyTech() {
         </div>
       </Reveal>
       <Reveal>
-        <p className="text-md font-semibold flex items-center mb-6">
+        <p className="text-lg font-semibold flex items-center mb-6">
           <FontAwesomeIcon
             icon={faPalette}
             className="text-black bg-orange-600 mr-2 p-1 w-3 h-3 rounded-md"

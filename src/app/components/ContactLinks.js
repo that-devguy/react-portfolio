@@ -11,13 +11,13 @@ export default function Socials() {
     window.open("https://github.com/that-devguy", "_blank");
   };
   return (
-    <section className="socials--container flex flex-col text-neutral-500">
-      <p className="text-md text-white font-semibold flex items-center mb-6">
+    <section className="socials--container flex flex-col pb-2 text-neutral-500">
+      <p className="text-lg text-white font-semibold flex items-center mb-6">
         <FontAwesomeIcon
           icon={faComment}
           className="text-black bg-orange-600 mr-2 p-1 w-3 h-3 rounded-md"
         />
-        Let&apos;s Connect
+        Send a Message
       </p>
       <div
         onClick={handleLinkedInClick}
