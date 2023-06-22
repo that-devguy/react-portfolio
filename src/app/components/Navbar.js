@@ -13,7 +13,7 @@ export default function Navbar() {
   const currentRoute = usePathname();
 
   return (
-    <nav className="navbar--container h-10 flex items-center space-between gap-5 max-w-7xl m-auto py-12 px-5 sticky top-0">
+    <nav className="navbar--container h-10 bg-zinc-950/90 backdrop-blur-sm z-10 flex items-center space-between gap-5 max-w-7xl m-auto py-12 px-5 sticky top-0">
       <Link href="/" className="text-3xl flex" style={myFont.style}>
         that_<span className="text-orange-600">dev</span>guy
       </Link>
