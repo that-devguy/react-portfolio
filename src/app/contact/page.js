@@ -9,7 +9,7 @@ export default function ContactPage() {
     <main>
       <Navbar />
       <section className="contact--container mx-auto max-w-4xl mt-20">
-        <SectionHeader title="Contact" />
+        <SectionHeader title="Contact me" />
         <div className="contact--infoContainer flex col-2 gap-10">
           <div className="w-2/3 text-neutral-500">
             <Reveal>
