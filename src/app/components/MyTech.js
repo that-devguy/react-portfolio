@@ -15,25 +15,26 @@ export default function MyTech() {
         </p>
         <div className="flex flex-wrap mb-8 gap-2">
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">
-            JavaScript
+            Next.js
           </p>
-          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">CSS</p>
-          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">HTML</p>
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">React</p>
+          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">JavaScript</p>
+          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">HTML</p>
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">
-            Handlebars
+            CSS
           </p>
-          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">NodeJS</p>
+          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">Node.js</p>
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">Express</p>
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">MongoDB</p>
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">MySQL</p>
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">jQuery</p>
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">REST</p>
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">JSON</p>
-          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">Tailwind</p>
-          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">Bootstrap</p>
+          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">Handlebars</p>
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">Git</p>
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">GitHub</p>
+          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">Tailwind</p>
+          <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">Bootstrap</p>
         </div>
       </Reveal>
       <Reveal>
