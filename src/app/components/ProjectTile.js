@@ -22,7 +22,7 @@ export default function ProjectTile(props) {
             alt={props.title}
             width={1280}
             height={720}
-            className="projectTile--appDemo rounded-t-lg opacity-70 duration-200 delay-100"
+            className="projectTile--appDemo rounded-t-lg w-fit opacity-70 duration-200 delay-100"
           />
         </RevealSlideOnly>
       </div>

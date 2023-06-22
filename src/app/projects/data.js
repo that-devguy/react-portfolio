@@ -22,12 +22,42 @@ export default [
   },
   {
     id: "3",
-    title: "Remote",
+    title: "Travel Journal",
     description:
-      "A multi-page web application that demonstrates how Remote can bring ideas to life with exceptional product design and prototyping. The app also simplifies and streamlines the quoting process for ease of use.",
-    techList: ["JavaScript", "CSS", "HTML", "Bootstrap"],
-    imageUrl: "/images/remote-demo.png",
-    appUrl: "https://remotedesign.tech/",
-    gitHubUrl: "https://github.com/that-devguy/Remote-Website",
+      "A dynamic web application that combines a beautifully designed interface from Figma with the power of React. By leveraging a data.js file, the application populates components dynamically, showcasing my ability to transform design concepts into a fully functional single-page application.",
+    techList: ["React", "JavaScript", "CSS"],
+    imageUrl: "/images/traveljournal-demo.png",
+    appUrl: "https://that-devguy.github.io/travel-journal/",
+    gitHubUrl: "https://github.com/that-devguy/travel-journal",
+  },
+  {
+    id: "4",
+    title: "Coming Soon",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    techList: ["React", "JavaScript", "CSS"],
+    imageUrl: "/images/placeholder-demo.png",
+    appUrl: "",
+    gitHubUrl: "",
+  },
+  {
+    id: "5",
+    title: "Coming Soon",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    techList: ["React", "JavaScript", "CSS"],
+    imageUrl: "/images/placeholder-demo.png",
+    appUrl: "",
+    gitHubUrl: "",
+  },
+  {
+    id: "6",
+    title: "Graphic Design Portfolio",
+    description:
+      "A dynamic web application that showcases a selection of my graphic design projects. It includes a wide variety of projects that demonstrate my design skills and creativity, encompassing digital and print marketing, video editing, broadcast production, and more.",
+    techList: ["Next.js", "React", "JavaScript", "Tailwind"],
+    imageUrl: "/images/placeholder-demo.png",
+    appUrl: "",
+    gitHubUrl: "",
   },
 ];

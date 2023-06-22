@@ -18,7 +18,7 @@ export default function ProjectsPage() {
         <Reveal>
           <p className="mb-12 text-neutral-500">
             I am excited to share with you a selection of my web development and
-            graphic design projects. You will find captivating websites,
+            my graphic design portfolio. You will find captivating websites,
             interactive web applications, digital marketing, and even broadcast
             productions that showcase my skills and creativity. My portfolio
             offers a glimpse into the range of projects I have worked on, each
