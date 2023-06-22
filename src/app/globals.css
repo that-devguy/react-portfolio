@@ -16,6 +16,19 @@ body {
   color: #ffffff;
 }
 
+/* Project tile effects */
+.projectTile--container:hover .projectTile--appDemo {
+  opacity: 1;
+}
+
+.projectTile--container:hover .projectTile--title {
+  font-size: 1.2rem;
+}
+
+.projectTile--container:hover .projectTile--desc {
+  color: #d4d4d4;
+}
+
 
 /* Background effects */
 .home--bgCircle {
