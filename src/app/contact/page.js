@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import SectionHeader from "../components/SectionHeader";
 import ContactLinks from "../components/ContactLinks";
 import { Reveal } from "../utils/Reveal";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ContactPage() {
   return (

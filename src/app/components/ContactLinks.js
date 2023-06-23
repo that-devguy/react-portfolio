@@ -1,15 +1,24 @@
 "use client";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faComment, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Socials() {
+
   const handleLinkedInClick = () => {
     window.open("https://www.linkedin.com/in/zachmutch/", "_blank");
   };
   const handleGithubClick = () => {
     window.open("https://github.com/that-devguy", "_blank");
   };
+  const handleEmailClick = () => {
+    const email = "zkmutch@gmail.com";
+    navigator.clipboard.writeText(email);
+    toast.success("Email copied to clipboard!");
+  };
+
   return (
     <section className="socials--container flex flex-col pb-2 text-neutral-500">
       <p className="text-lg text-white font-semibold flex items-center mb-6">
@@ -34,12 +43,13 @@ export default function Socials() {
         <p>github.com/that-devguy</p>
       </div>
       <div
-        // onClick={copyToClipboard}
+        onClick={handleEmailClick}
         className="cursor-pointer flex items-center gap-2 mb-2 hover:text-orange-600 transition-color duration-200 delay-100"
       >
         <FontAwesomeIcon icon={faEnvelope} className="h-5" />
         <p>zkmutch@gmail.com</p>
       </div>
+      <ToastContainer position="bottom-right" />
     </section>
   );
 }
