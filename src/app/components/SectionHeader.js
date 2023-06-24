@@ -9,9 +9,9 @@ const myFont = localFont({
 export default function SectionHeader({ title }) {
   return (
     <section className="flex items-center w-full gap-5 mb-5">
-      <div className="text-6xl min-w-fit">
+      <div className="text-4xl min-w-fit sm:text-5xl md:text-6xl">
         <Reveal>
-          <h3 className="p-2" style={myFont.style}>{title}</h3>
+          <h3 className="pr-2" style={myFont.style}>{title}</h3>
         </Reveal>
       </div>
       <div className="w-full h-[1px] bg-orange-600" />

@@ -11,13 +11,13 @@ import { Reveal } from "../utils/Reveal";
 export default function AboutPage() {
   return (
     <main>
-      <Navbar />
-      <section className="about--container mx-auto max-w-4xl mt-20">
+      {/* <Navbar /> */}
+      <section className="about--container mx-auto mt-20 max-w-sm sm:max-w-xl md:max-w-3xl md:px-6 lg:max-w-4xl">
         <SectionHeader title="About me" />
-        <div className="myTech--infoContainer flex col-2 gap-10">
-          <div className="w-2/3 text-neutral-500">
+        <div className="myTech--infoContainer flex flex-col-reverse col-2 gap-8 sm:gap-10 md:flex-row">
+          <div className="w-full text-sm text-neutral-500 sm:text-base md:w-2/3">
             <Reveal>
-              <p className="mb-5">
+              <p className="mb-5 hidden md:flex">
                 Hi, my name is Zach Mutch. I&apos;m a graphic designer turned
                 full-stack developer with a strong focus on front-end. I&apos;m
                 passionate about creating visually appealing and user-friendly
@@ -68,7 +68,7 @@ export default function AboutPage() {
               </p>
             </Reveal>
             <Reveal>
-              <div className="flex items-center py-2 gap-5">
+              <div className="flex items-center py-2 gap-5 mb-5">
                 <div className="flex items-center gap-2 text-lg text-orange-600">
                   <p>Let&apos;s connect</p>
                   <FontAwesomeIcon icon={faArrowRight} />
@@ -77,8 +77,23 @@ export default function AboutPage() {
               </div>
             </Reveal>
           </div>
-          <div className="myTech--badgesContainer w-1/3">
+          <div className="myTech--badgesContainer md:w-1/3">
             <MyTech />
+          </div>
+          <div className="myTech--mobileOnlyContainer w-full text-neutral-500 text-sm sm:text-base md:hidden">
+            <Reveal>
+              <p>
+                Hi, my name is Zach Mutch. I&apos;m a graphic designer turned
+                full-stack developer with a strong focus on front-end. I&apos;m
+                passionate about creating visually appealing and user-friendly
+                web applications. Drawing from my background in graphic design,
+                I bring a unique perspective to translating design concepts into
+                responsive web apps. My current obsession is React, and I&apos;m
+                dedicated to mastering it. However, I&apos;m a fast learner and
+                enjoy the process of acquiring new technologies and tools that
+                are best suited for each project&apos;s needs.
+              </p>
+            </Reveal>
           </div>
         </div>
       </section>
