@@ -11,7 +11,7 @@ import { Reveal } from "../utils/Reveal";
 export default function AboutPage() {
   return (
     <main>
-      {/* <Navbar /> */}
+      <Navbar />
       <section className="about--container mx-auto mt-20 max-w-sm sm:max-w-xl md:max-w-3xl md:px-6 lg:max-w-4xl">
         <SectionHeader title="About me" />
         <div className="myTech--infoContainer flex flex-col-reverse col-2 gap-8 sm:gap-10 md:flex-row">
