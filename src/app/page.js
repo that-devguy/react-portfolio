@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-[8rem] sm:gap-0 sm:h-screen">
       <div><Navbar /></div>
-      <section className="hero--container flex flex-col mx-auto justify-center items-center flex-grow max-w-sm sm:max-w-lg md:gap-2 md:max-w-lg lg:max-w-2xl">
+      <section className="hero--container flex flex-col mx-auto justify-center items-center sm:flex-grow max-w-sm sm:max-w-lg md:gap-2 md:max-w-lg lg:max-w-2xl">
         <Reveal>
           <h1
             className="text-6xl flex mb-6 pb-2 sm:text-8xl lg:text-9xl"
