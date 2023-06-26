@@ -1,7 +1,8 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 import ContactButton from "./components/ContactButton";
-import { Reveal } from "./utils/Reveal";
+import { Reveal, RevealSlideOnly } from "./utils/Reveal";
 import Navbar from "./components/Navbar";
 import localFont from "next/font/local";
 
@@ -13,8 +14,26 @@ const myFont = localFont({
 export default function Home() {
   return (
     <main className="flex flex-col h-screen">
-      <div><Navbar /></div>
-      <section className="hero--container flex flex-col mx-auto justify-center items-center flex-grow max-w-sm sm:max-w-lg md:gap-2 md:max-w-lg lg:max-w-2xl">
+      <div>
+        <Navbar />
+      </div>
+      <section className="hero--container flex flex-col mx-auto mt-[-6rem] justify-center items-center flex-grow max-w-sm sm:max-w-lg md:gap-2 md:max-w-lg lg:max-w-2xl">
+        <RevealSlideOnly>
+          <div className="flex gap-10 mb-10 sm:hidden">
+            <Link
+              href="/about"
+              className="cursor-pointer h-5 flex items-center text-neutral-500 hover:text-neutral-200 hover:underline transition-color duration-200 delay-100"
+            >
+              About me
+            </Link>
+            <Link
+              href="/projects"
+              className="cursor-pointer h-5 flex items-center text-neutral-500 hover:text-neutral-200 hover:underline transition-color duration-200 delay-100"
+            >
+              Projects
+            </Link>
+          </div>
+        </RevealSlideOnly>
         <Reveal>
           <h1
             className="text-6xl flex mb-6 pb-2 sm:text-8xl lg:text-9xl"
