@@ -11,7 +11,7 @@ export default function MyTech() {
             icon={faTerminal}
             className="text-black bg-orange-600 mr-2 p-1 w-3 h-3 rounded-md"
           />
-          Full-stack Technologies
+          Full-stack Technologies:
         </p>
         <div className="flex flex-wrap gap-2 mb-6 sm:mb-0 md:mb-8">
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">Next.js</p>
@@ -43,7 +43,7 @@ export default function MyTech() {
             icon={faPalette}
             className="text-black bg-orange-600 mr-2 p-1 w-3 h-3 rounded-md"
           />
-          Design Tools
+          Design Tools:
         </p>
         <div className="flex flex-wrap gap-2">
           <p className="text-sm bg-zinc-800 px-2 rounded-xl w-fit">Photoshop</p>

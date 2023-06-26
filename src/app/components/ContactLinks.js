@@ -26,7 +26,7 @@ export default function Socials() {
           icon={faComment}
           className="text-black bg-orange-600 mr-2 p-1 w-3 h-3 rounded-md"
         />
-        Send a Message
+        Send a Message:
       </p>
       <div
         onClick={handleLinkedInClick}
