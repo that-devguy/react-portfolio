@@ -20,8 +20,8 @@ export default function ProjectTile(props) {
           <Image
             src={props.imageUrl}
             alt={props.title}
-            width={1280}
-            height={720}
+            width={640}
+            height={360}
             className="projectTile--appDemo rounded-t-lg w-fit opacity-70 duration-200 delay-100"
           />
         </RevealSlideOnly>

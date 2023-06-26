@@ -10,7 +10,7 @@ export default function Socials() {
     window.open("https://github.com/that-devguy", "_blank");
   };
   return (
-    <section className="socials--container flex gap-4 text-neutral-500">
+    <section className="socials--container flex gap-4 pr-3 text-neutral-500 border-r border-neutral-700 sm:pr-0 sm:border-none">
       <FontAwesomeIcon
         icon={faLinkedinIn}
         className="cursor-pointer h-5 flex content-center hover:text-orange-600 transition-color duration-200 delay-100"
