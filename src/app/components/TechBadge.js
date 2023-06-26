@@ -5,5 +5,5 @@ export default function TechBadge(props) {
     </p>
   ));
 
-  return <div className="flex my-4 gap-2">{techItems}</div>;
+  return <div className="flex flex-wrap my-4 gap-2">{techItems}</div>;
 }

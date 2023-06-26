@@ -14,20 +14,20 @@ export default function ProjectTile(props) {
   };
 
   return (
-    <div onClick={handleAppClick} className="projectTile--container rounded-xl flex cursor-pointer gap-10 mb-12">
-      <div className="w-1/3 pt-3">
+    <div onClick={handleAppClick} className="projectTile--container flex-column cursor-pointer gap-10 mb-8 pr-5 sm:pr-0 sm:flex sm:mb-12">
+      <div className="sm:w-1/3 pt-3">
         <RevealSlideOnly>
           <Image
             src={props.imageUrl}
             alt={props.title}
             width={640}
             height={360}
-            className="projectTile--appDemo rounded-t-lg w-fit opacity-70 duration-200 delay-100"
+            className="projectTile--appDemo rounded-t-lg w-fit sm:opacity-70 duration-200 delay-100 mb-2 sm:mb-0"
           />
         </RevealSlideOnly>
       </div>
-      <div className="flex flex-col w-2/3">
-        <div className="flex items-center gap-4 mb-3">
+      <div className="flex flex-col sm:w-2/3">
+        <div className="flex items-center gap-4 sm:mb-3">
           <Reveal>
             <p className="projectTile--title py-2 text-lg duration-200 delay-100 font-semibold w-full">
               {props.title}
@@ -50,7 +50,7 @@ export default function ProjectTile(props) {
           </RevealSlideOnly>
         </div>
         <Reveal>
-          <p className="projectTile--desc duration-200 delay-100 text-md text-neutral-500">
+          <p className="projectTile--desc duration-200 delay-100 text-sm text-neutral-500 sm:text-base">
             {props.description}
           </p>
         </Reveal>

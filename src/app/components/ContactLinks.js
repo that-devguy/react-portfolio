@@ -21,7 +21,7 @@ export default function Socials() {
 
   return (
     <section className="socials--container flex flex-col pb-2 text-neutral-500">
-      <p className="text-lg text-white font-semibold flex items-center mb-6">
+      <p className="text-base text-white font-semibold flex items-center mb-6 md:text-lg">
         <FontAwesomeIcon
           icon={faComment}
           className="text-black bg-orange-600 mr-2 p-1 w-3 h-3 rounded-md"

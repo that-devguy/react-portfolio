@@ -13,10 +13,10 @@ export default function ProjectsPage() {
   return (
     <main>
       <Navbar />
-      <section className="projects--container mx-auto max-w-4xl mt-20">
+      <section className="projects--container mx-auto mt-8 max-w-sm sm:max-w-xl sm:mt-20 md:max-w-3xl md:px-6 lg:max-w-4xl">
         <SectionHeader title="Projects" />
         <Reveal>
-          <p className="mb-12 text-neutral-500">
+          <p className="mb-12 text-sm text-neutral-500 sm:text-base">
             I am excited to share with you a selection of my web development and
             my graphic design portfolio. You will find captivating websites,
             interactive web applications, digital marketing, and even broadcast
