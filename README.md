@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My React Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
 
-## Getting Started
+Welcome to my front-end portfolio! This project showcases my skills, experience, and projects as a front-end developer. It serves as a central hub for visitors to learn more about me, explore my projects, and get in touch for potential collaboration or employment opportunities. My portfolio features a responsive design that adapts to different devices and screen sizes, an interactive navigation menu, links to live project demos and GitHub repositories for my projects, and a list of ways you can contact me.
+  
+  
+## Table of Contents
 
-First, run the development server:
+- [Technologies Used](#technologies-used)
+- [Project Links](#project-links)
+- [License](#license)
+- [Questions](#questions)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)](https://www.ecma-international.org/ecma-262/)
+[![Next.js](https://img.shields.io/badge/Next.js-v12.0.7-black)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-v17.0.2-blue)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v2.2.19-38B2AC)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-v5.5.1-E50082)](https://www.framer.com/motion/)
+[![React Toastify](https://img.shields.io/badge/React_Toastify-v8.1.4-FF8800)](https://github.com/fkhadra/react-toastify)
+  
+## Project Links
+  
+Deployed Application: https://www.thatdevguy.app/
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+GitHub Repository: https://github.com/that-devguy/react-portfolio
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
+This project is licensed under the MIT license. Feel free to edit and distribute this template as you like.
 
-To learn more about Next.js, take a look at the following resources:
+See [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) for more information.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Questions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have any questions or issues, feel free to reach out to me via my GitHub profile: [that_devguy](https://github.com/that_devguy) or email me at zkmutch@gmail.com.
