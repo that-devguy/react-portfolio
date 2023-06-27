@@ -20,6 +20,8 @@ export default function ProjectTile(props) {
           <Image
             src={props.imageUrl}
             alt={props.title}
+            placeholder="blur"
+            blurDataURL={props.smallImageUrl}
             width={640}
             height={360}
             className="projectTile--appDemo rounded-t-lg w-fit duration-200 delay-100 align-center mb-2 sm:mb-0 sm:opacity-70"
