@@ -14,18 +14,21 @@ export default function ProjectTile(props) {
   };
 
   return (
-    <div onClick={handleAppClick} className="projectTile--container flex-column cursor-pointer gap-10 mb-8 pr-5 sm:pr-0 sm:flex sm:mb-12">
+    <div
+      onClick={handleAppClick}
+      className="projectTile--container flex-column cursor-pointer gap-10 mb-8 pr-5 sm:pr-0 sm:flex sm:mb-12"
+    >
       <div className="sm:w-1/3 pt-3">
         <RevealSlideOnly>
-          <Image
-            src={props.imageUrl}
-            alt={props.title}
-            placeholder="blur"
-            blurDataURL={props.smallImageUrl}
-            width={640}
-            height={360}
-            className="projectTile--appDemo rounded-t-lg w-fit duration-200 delay-100 align-center mb-2 sm:mb-0 sm:opacity-70"
-          />
+          <div className="bg-neutral-950 rounded-t-xl w-full h-[180px]">
+            <Image
+              src={props.imageUrl}
+              alt={props.title}
+              width={640}
+              height={360}
+              className="projectTile--appDemo rounded-t-lg w-fit duration-200 delay-100 align-center mb-2 sm:mb-0 sm:opacity-70"
+            />
+          </div>
         </RevealSlideOnly>
       </div>
       <div className="flex flex-col sm:w-2/3">

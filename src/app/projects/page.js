@@ -17,8 +17,7 @@ export default function ProjectsPage() {
         <SectionHeader title="Projects" />
         <Reveal>
           <p className="mb-12 text-sm text-neutral-500 sm:text-base">
-            I am excited to share with you a selection of my web development projects and
-            my graphic design portfolio. You will find captivating websites,
+            I am excited to share with you a selection of my web development projects, including my graphic design portfolio. You will find captivating websites,
             interactive web applications, digital marketing, and even broadcast
             productions that showcase my skills and creativity. My portfolio
             offers a glimpse into the range of projects I have worked on, each

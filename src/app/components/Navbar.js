@@ -23,8 +23,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="navbar--container h-10 bg-zinc-950/90 backdrop-blur-sm z-10 flex items-center justify-between gap-5 max-w-7xl m-auto py-12 px-0 sticky top-0">
-      <div className="navbar--menuButton flex z-10 sm:hidden">
+    <nav className="navbar--container h-10 z-10 bg-zinc-950/90 backdrop-blur-sm flex items-center justify-between gap-5 max-w-7xl m-auto py-12 px-0 sticky top-0">
+      <div className="navbar--menuButton flex z-20 sm:hidden">
         <FontAwesomeIcon
           icon={nav ? faXmark : faEllipsisVertical}
           className="text-neutral-500 w-5 h-5"
