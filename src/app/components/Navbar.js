@@ -36,8 +36,8 @@ export default function Navbar() {
       <div
         className={
           nav
-            ? "navbar--mobileMenu absolute bg-zinc-950 backdrop-blur-sm top-0 left-0 right-0 bottom-0 flex flex-grow flex-col gap-5 justify-start items-left w-1/2 h-screen ease-in duration-300 pt-24 sm:hidden"
-            : "navbar--mobileMenu absolute bg-zinc-950 backdrop-blur-sm top-0 left-[-100%] right-0 bottom-0 flex flex-grow flex-col gap-5 justify-start items-left w-1/2 h-screen ease-in duration-300 pt-24 sm:hidden"
+            ? "navbar--mobileMenu absolute bg-zinc-950 backdrop-blur-sm text-xl top-0 left-0 right-0 bottom-0 flex flex-grow flex-col gap-6 justify-start items-left w-1/2 h-screen ease-in duration-300 pt-24 pl-3 sm:hidden"
+            : "navbar--mobileMenu absolute bg-zinc-950 backdrop-blur-sm text-xl top-0 left-[-100%] right-0 bottom-0 flex flex-grow flex-col gap-6 justify-start items-left w-1/2 h-screen ease-in duration-300 pt-24 pl-3 sm:hidden"
         }
       >
         <Link
