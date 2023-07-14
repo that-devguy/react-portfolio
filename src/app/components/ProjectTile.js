@@ -20,7 +20,7 @@ export default function ProjectTile(props) {
     >
       <div className="sm:w-1/3 pt-3">
         <RevealSlideOnly>
-          <div className="bg-neutral-950 rounded-t-xl w-full h-[180px]">
+          <div className="bg-transparent rounded-t-xl w-full h-[180px]">
             <Image
               src={props.imageUrl}
               alt={props.title}
