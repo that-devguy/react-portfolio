@@ -6,7 +6,6 @@ Welcome to my front-end portfolio! This project showcases my skills, experience,
 
 
 ![image](https://github.com/that-devguy/react-portfolio/assets/113719464/dbb8ded8-140a-41c6-b3c8-fd263ad5c883)
-![image](https://github.com/that-devguy/react-portfolio/assets/113719464/7bdf0690-b995-42a8-9e79-89db37ee1247)
 
 
 
