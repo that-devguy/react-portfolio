@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import ContactButton from "./components/ContactButton";
+import ProjectsButton from "./components/ProjectsButton";
 import { Reveal, RevealSlideOnly } from "./utils/Reveal";
 import Navbar from "./components/Navbar";
 import localFont from "next/font/local";
@@ -19,18 +19,18 @@ export default function Home() {
       </div>
       <section className="hero--container flex flex-col mx-auto mt-[-6rem] justify-center items-center flex-grow max-w-sm sm:max-w-lg md:gap-2 md:max-w-lg lg:max-w-2xl">
         <RevealSlideOnly>
-          <div className="flex gap-10 mb-8 sm:hidden">
+          <div className="flex gap-10 mb-8">
             <Link
               href="/about"
-              className="cursor-pointer h-5 flex items-center text-neutral-500 hover:text-neutral-200 hover:underline transition-color duration-200 delay-100"
+              className="cursor-pointer h-5 flex items-center text-neutral-500 underline hover:text-neutral-200 transition-color duration-200 delay-100"
             >
               About me
             </Link>
             <Link
-              href="/projects"
-              className="cursor-pointer h-5 flex items-center text-neutral-500 hover:text-neutral-200 hover:underline transition-color duration-200 delay-100"
+              href="/contact"
+              className="cursor-pointer h-5 flex items-center text-neutral-500 underline hover:text-neutral-200 transition-color duration-200 delay-100"
             >
-              Projects
+              Contact me
             </Link>
           </div>
         </RevealSlideOnly>
@@ -51,7 +51,7 @@ export default function Home() {
         </Reveal>
         <Reveal>
           <div className="flex items-center justify-center px-14 h-14">
-            <ContactButton />
+            <ProjectsButton />
           </div>
         </Reveal>
       </section>
