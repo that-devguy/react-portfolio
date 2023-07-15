@@ -42,13 +42,13 @@ export default [
   },
   {
     id: "5",
-    title: "Travel Journal",
+    title: "Coming Soon",
     description:
-      "A dynamic web application that combines a beautifully designed interface from Figma with the power of React. By leveraging a data.js file, the application populates components dynamically, showcasing my ability to transform design concepts into a fully functional single-page application.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     techList: ["React", "JavaScript", "CSS"],
-    imageUrl: "/images/traveljournal-demo.png",
-    appUrl: "https://that-devguy.github.io/travel-journal/",
-    gitHubUrl: "https://github.com/that-devguy/travel-journal",
+    imageUrl: "/images/placeholder-demo.png",
+    appUrl: "",
+    gitHubUrl: "",
   },
   {
     id: "6",
