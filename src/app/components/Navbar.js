@@ -187,9 +187,9 @@ export default function Navbar() {
           <Image
             src="/images/devguy-logo-mobile.png"
             alt="devguy-logo"
-            width={30}
-            height={30}
-            className="navbar--mobileLogo w-fit"
+            width={35}
+            height={35}
+            className="navbar--mobileLogo"
           />
         </Link>
       </div>
