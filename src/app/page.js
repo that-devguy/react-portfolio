@@ -44,7 +44,7 @@ export default function Home() {
         </Reveal>
         <Reveal>
           <h3 className="text-sm text-center text-neutral-500 mb-6 sm:text-base md:text-lg">
-            Hi, my name is Zach Mutch, I&apos;m a design-driven Full-stack Web
+            Hi, my name is Zach Mutch, I&apos;m a design-driven Front-end Web
             Developer with a passion for visually appealing and user-friendly
             web applications.
           </h3>

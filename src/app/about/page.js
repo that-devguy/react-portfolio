@@ -19,7 +19,7 @@ export default function AboutPage() {
             <Reveal>
               <p className="mb-5 hidden md:flex">
                 Hi, my name is Zach Mutch. I&apos;m a graphic designer turned
-                full-stack developer with a strong focus on front-end. I&apos;m
+                front-end developer with a strong focus on front-end. I&apos;m
                 passionate about creating visually appealing and user-friendly
                 web applications. Drawing from my background in graphic design,
                 I bring a unique perspective to translating design concepts into
