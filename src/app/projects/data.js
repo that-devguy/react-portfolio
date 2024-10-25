@@ -47,34 +47,4 @@ export default [
     appUrl: "https://www.pokedexportal.com/",
     gitHubUrl: "https://github.com/that-devguy/Pokedex-Web-Application",
   },
-  {
-    id: "5",
-    title: "Remote",
-    description:
-      "A multi-page web application that demonstrates how Remote can bring ideas to life with exceptional product design and prototyping. This application simplifies and streamlines the quoting process for ease of use.",
-    techList: ["JavaScript", "CSS", "HTML", "Bootstrap"],
-    imageUrl: "/images/remote-demo.png",
-    appUrl: "https://remotedesign.tech/",
-    gitHubUrl: "https://github.com/that-devguy/Remote-Website",
-  },
-  // {
-  //   id: "6",
-  //   title: "Coming Soon",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  //   techList: ["React", "JavaScript", "CSS"],
-  //   imageUrl: "/images/placeholder-demo.png",
-  //   appUrl: "",
-  //   gitHubUrl: "",
-  // },
-  // {
-  //   id: "7",
-  //   title: "Graphic Design Portfolio",
-  //   description:
-  //     "A dynamic web application that showcases a selection of my graphic design projects. It includes a wide variety of projects that demonstrate my design skills and creativity, encompassing digital and print marketing, video editing, broadcast production, and more.",
-  //   techList: ["Next.js", "React", "JavaScript", "Tailwind"],
-  //   imageUrl: "/images/placeholder-demo.png",
-  //   appUrl: "",
-  //   gitHubUrl: "",
-  // },
 ];
