@@ -127,14 +127,6 @@ export default function Navbar() {
         >
           Contact
         </Link>
-        <a
-          href="/zachmutch-resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cursor-pointer h-5 flex items-center hover:text-neutral-200 transition-color duration-200 delay-100"
-        >
-          Resume
-        </a>
       </div>
 
       {/* Default Menu */}
@@ -172,14 +164,6 @@ export default function Navbar() {
         >
           Contact
         </Link>
-        <a
-          href="/zachmutch-resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cursor-pointer h-5 flex items-center hover:text-neutral-200 transition-color duration-200 delay-100"
-        >
-          Resume
-        </a>
       </div>
       <div className="flex items-center gap-3">
         <Socials />
