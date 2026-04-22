@@ -7,7 +7,8 @@ export default [
       "A dedicated web app designed for avid fans and players of Teamfight Tactics. With the ever-evolving landscape of the game, staying updated with your stats and leaderboards is a top priority. Tactician Tracker bridges this gap by providing real-time statistics, rankings, and insights, leveraging the Riot Games API for accurate and up-to-date data.",
     techList: ["Next.js", "React", "Javascript", "Tailwind"],
     imageUrl: "/images/tacticiantracker-demo.png",
-    appUrl: "https://www.tacticiantracker.com/",
+    appUrl:
+      "https://tactician-tracker-neik-git-tacticia-7e2387-thatdevguys-projects.vercel.app/",
     gitHubUrl: "https://github.com/that-devguy/tactician-tracker",
   },
   {
@@ -29,13 +30,13 @@ export default [
   },
   {
     id: "3",
-    title: "Put A Spork In It",
+    title: "Kitts Remodeling",
     description:
-      "The virtual kitchen for pop culture fans! A recipe web app that brings the magic of your favorite TV shows, movies, and video games to your plate, with mouth-watering recipes. Create accounts, share your recipes, and save your favorites.",
-    techList: ["JavaScript", "Express", "MySQL", "Tailwind", "Handlebars"],
-    imageUrl: "/images/putasporkinit-demo.png",
-    appUrl: "https://www.putasporkinit.co/",
-    gitHubUrl: "https://github.com/CodeByDex/PutASporkInIt",
+      "A visually driven home remodeling website built to highlight craftsmanship through project galleries and clean, modern design. Focused on strong visual hierarchy, responsive layouts, and an easy-to-navigate user experience.",
+    techList: ["JavaScript", "Next.js", "React", "Tailwind"],
+    imageUrl: "/images/kitts-demo.png",
+    appUrl: "https://remodeling-website.vercel.app/",
+    gitHubUrl: "https://github.com/that-devguy/remodeling-website",
   },
   {
     id: "4",
@@ -44,7 +45,7 @@ export default [
       "A Pokedex web app with a comprehensive database of all 1008 Pokemon from all 9 generations. It combines data from PokeAPI and Pokemon TCG API to provide users with information about Pokemon, including their stats, evolutions, and trading cards. We feature an elegant design using the Tailwind and offer an intuitive interface for easy searching and accessing of Pokemon information.",
     techList: ["JavaScript", "HTML", "CSS", "Tailwind", "jQuery"],
     imageUrl: "/images/pokedexportal-demo.png",
-    appUrl: "https://www.pokedexportal.com/",
+    appUrl: "https://pokedex-web-application-beta.vercel.app/",
     gitHubUrl: "https://github.com/that-devguy/Pokedex-Web-Application",
   },
 ];
